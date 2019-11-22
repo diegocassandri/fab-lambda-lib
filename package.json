@@ -1,0 +1,25 @@
+{
+    "name": "fab-lambda-lib",
+    "version": "0.0.1",
+    "description": "Biblioteca de utilitários para construção de lambdas no ambiente SKD G7 para interceptação de primitivas.",
+    "main": "src/index.js",
+    "license": "SEE LICENSE IN LICENCE.md",
+    "keywords": [
+        "senior",
+        "lambda",
+        "aws"
+    ],
+    "author": "luiz.nazari",
+    "scripts": {
+        "lint": "./node_modules/.bin/eslint .",
+        "lint:fix": "npm run lint -- --fix",
+        "pretest": "npm run lint",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "devDependencies": {
+        "eslint": "^6.6.0",
+        "eslint-config-airbnb-base": "^14.0.0",
+        "eslint-plugin-import": "^2.18.2",
+        "rimraf": "^3.0.0"
+    }
+}
